@@ -128,7 +128,7 @@ $colorLogin: lighten($colorPrimary, 3%);
   margin: 5px;
   background-color: lighten($colorPrimary, 50%);
   border: $colorPrimary solid 2px;
-  border-radius: 50%;
+  border-radius: 10%;
   width: 150px;
   height: 150px;
 }
@@ -136,7 +136,7 @@ $colorLogin: lighten($colorPrimary, 3%);
 .boton-circular:hover {
   transform: rotate(360deg);
   background: lighten($colorSuccess, 5%);
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .desactivar {
