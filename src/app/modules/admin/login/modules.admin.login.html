@@ -2,15 +2,16 @@
     <div class="logo"><img src="assets/images/logo.png"></div>
 </md-toolbar>
 <div class="container">
-  <div class="logo-agetic"><img src="assets/images/31a47e7e55c8f236b8b33cb79679527c.png"></div>
+    
+  
   <!-- <md-card class="login-panel md-whiteframe-3dp"></md-card> -->
   <md-card class="login-panel ">
     <md-card-content>
       <div layout layout-xs="column" layout-sm="column" layout-align="center center">
-        <div class="boton-circular" flex layout-xs="row">
-          <md-tooltip>Verificar documentos</md-tooltip>
-          <img class="icon-circular-imagen" src="assets/images/certificate.png" ng-click="login.irAVerificar()">
-        </div>
+            <div class="" flex layout-xs="row">
+                <md-tooltip>ESCUELA MILITAR DE INGENIERIA</md-tooltip>
+                <img class="icon-circular-imagen" src="assets/images/Icon_EMI.png">
+            </div>
       </div>
       <!-- DEBE QUITARSE EL FORMULARIO SI SE DESEA TRABAJAR CON CIUDADANÍA -->
       <form name="form" ng-submit="login.login()">
@@ -29,4 +30,8 @@
       <!-- fin del FORMULARIO a borrar SI SE DESEA TRABAJAR CON CIUDADANÍA -->
     </md-card-content>
   </md-card>
+</div>
+<div class="boton-circular" flex layout-xs="row">
+          <md-tooltip>Buscar documentos</md-tooltip>
+          <img class="icon-circular-imagen" src="assets/images/certificate.png" ng-click="login.irAVerificar()">
 </div>
