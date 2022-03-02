@@ -171,7 +171,7 @@
         var usuario = {
           usuario: vmd.data.usuario,
           fid_unidad: vmd.data.fid_unidad,
-          contrasena: " ", // vmd.data.contrasena, // Se utiliza la contraseña del LDAP
+          contrasena: "emi123", // vmd.data.contrasena, // Se utiliza la contraseña del LDAP
           numero_documento: vmd.data.numero_documento,
           nombres: vmd.data.nombres,
           apellidos: vmd.data.apellidos,
